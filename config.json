@@ -1,0 +1,36 @@
+{
+  "me": {
+    "name": "Zero",
+    "protocol": "http",
+    "url": "localhost",
+    "port": "28980",
+    "apiPort": "14490",
+    "datastorePath": "./.DS"
+  },
+  "network": {
+    "consensus": "pos",
+    "consensusThreshold": 60
+  },
+  "nearestNeighbours": [
+    {
+      "name": "A",
+      "protocol": "http",
+      "url": "localhost",
+      "port": "28981",
+      "initialIdentity": {
+        "type": "rsa",
+        "publicKey": ""
+      }
+    },
+    {
+      "name": "B",
+      "protocol": "http",
+      "url": "localhost",
+      "port": "28982",
+      "initialIdentity": {
+        "type": "rsa",
+        "publicKey": ""
+      }
+    }
+  ]
+}
